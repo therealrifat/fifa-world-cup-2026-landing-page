@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: brown;
+    
+}
+.parent-nav{
+    margin: 0px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.parent-nav div ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+nav div ul a{
+    color: #fff;
+    text-decoration: none;
+}
