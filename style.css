@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.common-btn{
+    padding: 15px 40px;
+}
 nav{
     background-color: brown;
     
