@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    font-family:"Host Grotesk", sans-serif ;
+    padding: 0px 1%;
+}
 .common-btn{
     padding: 15px 40px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
 }
 nav{
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     
 }
 .parent-nav{
-    margin: 0px 8%;
+    
+    padding: 15px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +33,50 @@ nav{
     list-style: none;
 }
 nav div ul a{
-    color: #fff;
+    color: #353333;
     text-decoration: none;
 }
+
+
+/* banner section */
+header{
+    
+    
+}
+
+.header-part{
+    min-height: 100vh;
+    background-image: url("./asset/Background.png");
+  
+    /* background-position: center; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+     background-position: top center;
+    
+}
+.hero-contents{
+    position: absolute;
+    text-align: left;
+    bottom: 75px;
+    left: 50px;
+    color: #fff;
+
+}
+
+.hero-contents h1{
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 90px;
+
+}
+    
+.hero-contents p{
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 16px;
+    padding: 30px 0px;
+}
+
+/* end banner section  */
+
