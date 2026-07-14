@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --primary-color: #133BDB;
+    --secondary-color: #F4C430;
+    --white: #FFFFFF;
+    --dark: #000102;
+    --Dark-Grey: #575757;
+    --light-Grey: #797979;
+
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,13 +18,13 @@ body{
 }
 .common-btn{
     padding: 15px 40px;
-    background-color: #F4C430;
+    background-color: var(--secondary-color);
     border-radius: 10px;
     font-size: 17px;
     border: none;
 }
 nav{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white);
     
 }
 .parent-nav{
@@ -33,7 +42,7 @@ nav{
     list-style: none;
 }
 nav div ul a{
-    color: #353333;
+    color: var(--light-Grey);
     text-decoration: none;
 }
 
@@ -83,7 +92,7 @@ header{
 .data-display{
     margin-top: 20px;
     padding: 40px;
-    background-color: #F4C430;
+    background-color: var(--secondary-color);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   
@@ -94,4 +103,5 @@ header{
     align-items: center;
     font-size: 72px;
     font-weight: 900;
+
 }
