@@ -105,3 +105,34 @@ header{
     font-weight: 900;
 
 }
+.host-section{
+    margin-top: 35px;
+}
+.Stadium-parent{
+    display: grid;
+    margin: 20px 8%;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.Stadium-heading{
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
+}
+.content-parent{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.content-parent ul{
+    color: var(--Dark-Grey);
+    margin-left: 15px;
+}
+.content-parent h2{
+    font-size: 40px;
+}
+
+.content-parent p{
+    margin: 10px auto;
+    color: var(--Dark-Grey);
+}
