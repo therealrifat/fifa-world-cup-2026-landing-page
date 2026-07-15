@@ -146,3 +146,22 @@ header{
    /* border-radius: 20px; */
    align-items: center;
 }
+
+
+/* matches to circle */
+
+.matches-area{
+    display: grid;
+    justify-content: center;
+    
+}
+table, th, td{
+    border: 1px solid var(--dark);
+    border-collapse: collapse; 
+}
+th{
+    background-color: #A73131;
+}
+th, td{
+    padding: 20px;
+}
