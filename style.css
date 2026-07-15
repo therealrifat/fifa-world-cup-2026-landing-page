@@ -136,3 +136,13 @@ header{
     margin: 10px auto;
     color: var(--Dark-Grey);
 }
+.host-button-div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+.host-button{
+   /* border-radius: 20px; */
+   align-items: center;
+}
